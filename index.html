@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amar CV</title>
+  <link rel="stylesheet" href="assets/css/istyle.css" />
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <img src="assets/images/IMG_2522.jpg" alt="My Profile Photo"/>
+      <div class="intro-box">
+      <p>
+        I'm Muhammad Amar Bin Faridulafraz, a student pursuing a Bachelor's degree in Information Systems at Universiti Teknologi Petronas. I'm passionate about technology, problem-solving, and learning how digital systems improve everyday life and business. I’m eager to grow my skills and contribute to meaningful tech solutions.
+      </p>
+      </div>
+      
+      
+      <a href="assets/files/Amar_CV.pdf" download class="btn-download">Download CV</a>
+
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Universiti Teknologi Petronas, Perak - university </li>
+        <li>Universiti Teknologi Mara, Dengkil - pre-university </li>
+        <li>Sekolah Sultan Alam Shah, Putrajaya - secondary education</li>
+        <li>Sekolah Kebangsaan Taman Ehsan, Selangor - primary education</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ol>
+        <li>Langauge: Bahasa Melayu(Expert), English (Intermediate), France (Basic)</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Problem Solving & Time Management</li>
+        <li>Git & GitHub</li>
+      </ol>
+    </section>
+
+    <section id="experience">
+      <h2>Projects & Work Experience</h2>
+      <ul>
+        <li>
+          <strong>Personal Portfolio Website</strong> – Built using HTML/CSS/JS and hosted on 
+          <a href="https://github.com/muhdaamar/24007440-cv" target="_blank">GitHub</a>.
+                  </li>
+        <li>
+          <strong>Sales Advisor – Football Republic</strong><br />
+         
+          <ul>
+            <li>Assisted customers in selecting the right sportswear and equipment based on their needs and preferences.</li>
+            <li>Provided expert advice on football boots, training gear, and accessories.</li>
+            <li>Maintained in-depth knowledge of the latest sports products and promotions.</li>
+            <li>Delivered excellent customer service, contributing to increased sales and customer satisfaction.</li>
+            <li>Handled stock organization and floor display setup.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Football Training Module – UiTM International Mega Innovation Carnival CDU2024 (Silver Award)</strong>
+          <ul>
+            <li>Designed a 12-week football training module for university student-athletes under 19.</li>
+            <li>Balanced technical, tactical, physical, and mental development.</li>
+            <li>Focused on time-efficient training to accommodate busy academic schedules.</li>
+            <li>Awarded Silver at UiTM International Mega Innovation Carnival CDU2024.</li>
+          </ul>
+        </li>
+        
+        
+        
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <table>
+        <tr><td>Email:</td><td>m.aamr757@gmail.com</td></tr>
+        <tr><td>Phone:</td><td> 019-726-1552</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MUHAMMAD AMAR </p>
+  </footer>
+  <script>
+    // Smooth scroll to sections
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+  
+</body>
+</html>
